@@ -1,0 +1,6 @@
+{
+    "presets": [
+        "@babel/preset-env", // Entiende todo ecma para que entiendadn los navegadore
+        "@babel/preset-react" // React entiendo lo mismo
+    ]
+}
