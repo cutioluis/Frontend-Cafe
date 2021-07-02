@@ -1,0 +1,48 @@
+.coffe-header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.header-mini {
+    margin: 10px 0;
+    color: #00C39D;
+    font-size: 20px;
+}
+
+.header-title {
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 40px;
+    letter-spacing: -2px;
+}
+
+.fab {
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    background: none;
+}
+
+.header-discord {
+    padding: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px 0;
+    border: none;
+    background: none;
+    background: #00C39D;
+    border-radius: 30px;
+    width: auto;
+    height: 70px;
+}
+
+.header-discord:hover {
+    transition: 250ms;
+    box-shadow: -1px 2px 48px 9px rgba(0, 195, 157, 0.37);
+}

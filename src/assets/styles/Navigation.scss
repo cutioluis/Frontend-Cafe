@@ -1,0 +1,31 @@
+
+.coffe-nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coffe-join {
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 800;
+    color: #00C39D;
+    background: none;
+    border: 3px solid #00C39D;
+    box-sizing: border-box;
+    border-radius: 34px;
+}
+
+.coffe-nav img {
+    width: 180px;
+    height: 30px;
+}
+
+.coffe-join:hover {
+    transition: 250ms;
+    color: white;
+    background-color: #00C39D;
+}
