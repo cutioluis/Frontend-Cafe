@@ -3,7 +3,7 @@ import '../assets/styles/App.scss'
 import Navigation from '../components/Navigation';
 import Header from '../components/Header';
 
-const App = () => {
+const Home = () => {
     return (
         <div className="hi">
             <Navigation></Navigation>
@@ -12,4 +12,4 @@ const App = () => {
     );
 };
 
-export default App;
+export default Home;
