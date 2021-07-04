@@ -7,7 +7,14 @@ const Navigation = () => {
         <div className="nav-elipse">
             <nav className="coffe-nav">
             <img className="coffe-logo" src={logo} alt="Frontend Cafe" />
-            <button className="coffe-join">Join Now</button>
+            <div className="coffe-left">
+                <ul className="left-coffe">
+                    <li>Comunidad</li>
+                    <li>Online</li>
+                    <li>Blogs</li>
+                </ul>
+               <button className="coffe-join">Join Now</button>
+            </div>
             </nav>
         </div>
     );
