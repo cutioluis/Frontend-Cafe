@@ -1,0 +1,19 @@
+.coffe-footer {
+    display:flex
+}
+
+.coffe-footer ul {
+    display:flex;
+}
+
+.coffe-footer ul li {
+    margin: 0 20px;
+    list-style: none;
+    color: #00C39D;
+}
+
+.coffe-footer ul li:hover {
+    transition: 150ms;
+    font-weight: bold;
+    cursor: pointer;
+}

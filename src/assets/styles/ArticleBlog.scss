@@ -1,0 +1,89 @@
+.coffe-article {
+  margin: 100px 0;
+}
+
+.article-img-container {
+  height: 100%;
+  width: 430px;
+}
+
+.article-img {
+  border-radius: 20px;  
+  margin: 15px 0;
+  cursor: pointer;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.article-img:hover {
+  transition: 150ms;
+  filter: grayscale(0.5);
+}
+
+.article-container {
+  margin: 80px 0;
+  text-align: start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Styles right Article */
+
+.article-rigth-container {
+  max-width: 400px;
+}
+
+.article-button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  background: #C7FCEF;
+  border-radius: 15px;
+  font-size: 20px;
+  color: #00C39D;
+}
+
+.article-title {
+  cursor: pointer;
+  line-height: 40px;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.article-title-ancla {
+  text-decoration: none;
+  color: black;
+}
+
+.article-paragraph {
+  color: #7b7979;
+  margin: 15px 0;
+}
+
+.article-time {
+  color: #7b7979;
+}
+
+.article-time i {
+  margin-right: 5px;
+}
+
+.fa-bookmark {
+  color: #7b7979;
+  margin-left: 20px;
+}
+
+.fa-bookmark:hover {
+  cursor: pointer;
+  transition: 250ms;
+  color: #00C39D;
+}
+
+.article-time:hover {
+  transition: 250ms;
+  color: #000000;
+}
+

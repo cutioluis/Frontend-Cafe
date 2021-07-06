@@ -20,7 +20,7 @@ const Header = () => {
         </span>
         <br />
         <button className="header-discord">
-          <i class="fab fa-discord"></i>
+          <i className="fab fa-discord"></i>
           Join Discord
         </button>
       </div>

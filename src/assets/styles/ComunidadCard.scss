@@ -1,0 +1,101 @@
+.coffe-comunidadCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-cards {
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.coffe-card {
+    overflow: hidden;
+    padding:30px;
+    border-radius: 35px;
+    background-color:white;
+    filter: drop-shadow(0px 4px 13px rgba(0, 0, 0, 0.116));
+    margin:20px;
+    height:auto;
+    width: auto;
+    max-width: 300px;
+}
+
+
+.img-card {
+    width: 105px;
+    height: 105px;
+    background-color: black;
+    border-radius: 52%; 
+}
+
+.flag-img {
+    width: 22px;
+    height: 21px;
+    border-radius: 50%;
+}
+
+.container-card-top {
+    display:flex;
+    align-items:flex-end;
+    justify-content: space-between;
+}
+
+.container-card-mid {
+    text-align: start;
+}
+
+.container-card-line {
+    margin: 15px 0;
+    width: 100vh;
+    height: 100%;
+    height:3px;
+    background-color: #00C39D;
+}
+
+.container-card-mid .coffe-ttitle-comunidad {
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 3px;
+    font-size: 30px;
+}
+
+.coffe-span-comunidad {
+    color: #00C39D;
+    font-weight:bold;
+}
+
+.container-card-mid .fab {
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 0;
+    color: #1DA1F2;
+}
+
+.coffe-bio-comunidad {
+    margin: 5px 0;
+    color: #797777;
+}
+
+.container-card-bot {
+    text-align: start;
+}
+
+.container-card-bot ul {
+    margin: 0;
+    padding: 0;;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-center;
+}
+
+.container-card-bot ul li {
+    color: #7B7979;
+    margin: 5px 0;
+    border: 1px solid #7B7979;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 20px;
+    list-style: none;
+}

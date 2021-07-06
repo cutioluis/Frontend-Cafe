@@ -1,30 +1,54 @@
 import React from "react";
+import '../assets/styles/Login.scss'
 
-const Login = () => (
-  <section className="coffe-login">
-    <div className="coffe-container">
-      <button className="coffe-fb">
-        <i className="fab fa-facebook-f"></i>
-        Login with Facebook
-      </button>
-      <button className="coffe-tw">
-        <i className="fab fa-twitter"></i>
-        Login with Twitter
-      </button>
-      <form action="">
-        <label htmlFor="email">
-          <input autocomplete="email" type="text" placeholder="Your email" />
-        </label>
-        <label htmlFor="email">
-          <input
-            autocomplete="password"
-            type="text"
-            placeholder="Your password"
-          />
-        </label>
-      </form>
-    </div>
-  </section>
-);
+const Login = () => {
+  return (
+    <div className="container">
+    <section className="container-login">
+      <h2 className="login-title">Iniciar Sesion</h2>
+      <div className="login">
+        <form action="">
+          <label className="login-label" htmlFor="correo">
+            <p className="login-letter">Correo Electronico</p>
+            <br />
+            <input
+              className="login-input"
+              placeholder="Tu email"
+              type="email"
+              name="correo"
+              id="correo"
+              autoComplete="email"
+              required
+            />
+          </label>
+          <label htmlFor="password">
+            <p className="login-letter">Contraseña</p>
+            <input
+              className="login-input"
+              placeholder="Tu contraseña"
+              type="password"
+              name="password"
+              id="password" 
+              autoComplete="email"
+              required
+            />
+            <br />
+            <span className="login-letter-send">Olvidate tu contraseña</span>
+            <br />
+          </label>
+          <label  htmlFor="">
+            <div className="label2">
+                  <button className="login-button">Iniciar Seasion</button>
+            <button className="login-signin">Registrarse</button>
+            </div>
+          </label>
+        </form>
+      </div>
+    </section>
+  </div>
+  )
+}
+  
+
 
 export default Login;
