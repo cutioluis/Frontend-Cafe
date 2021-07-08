@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../assets/styles/ArticleBlog.scss";
 
 const API =
-  "https://newsapi.org/v2/everything?q=ia&apiKey=daa3a3d7c6634f648cc283e039621894";
+  "https://newsapi.org/v2/everything?q=amazon&apiKey=daa3a3d7c6634f648cc283e039621894";
 
 const ArticleBlog = () => {
   const [news, setNews] = useState([]);

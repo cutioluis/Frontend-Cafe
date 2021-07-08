@@ -1,13 +1,15 @@
 .coffe-footer {
-    display:flex
+    display:flex;
+    flex-wrap: wrap;
 }
 
 .coffe-footer ul {
     display:flex;
+    flex-wrap: wrap;
 }
 
 .coffe-footer ul li {
-    margin: 0 20px;
+    margin: 10px 20px;
     list-style: none;
     color: #00C39D;
 }

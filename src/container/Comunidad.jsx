@@ -18,8 +18,6 @@ const Comunidad = () => {
           Crea tu perfil</button>
           <div className="container-cards">
             <ComunidadCard/>
-            <ComunidadCard/>
-            <ComunidadCard/>
           </div>
     </div>
   );

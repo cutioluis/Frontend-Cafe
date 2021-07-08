@@ -1,0 +1,59 @@
+{
+    "initalState": {
+      "user": {},
+      "playing": {},
+      "myCharacters": [],
+      "speakers": [
+        {
+          "id": 2,
+          "name": "Luis Cutiopala",
+          "profession": "Frontend Developer",
+          "description": "Me llamo Luis y me encanta crear contenido para redes sociales y compartir mi conocimieto como Frontend          ",
+          "image": "https://static.platzi.com/media/speakers/cvander.png",
+          "country": "https://static.platzi.com/media/flags/MX.png"
+        },
+        {
+            "id": 2,
+            "name": "Rober Kaufman D.",
+            "profession": "Ui/Ux Designer",
+            "description": "Me llamo Luis y me encanta crear contenido para redes sociales y compartir mi conocimieto como Frontend          ",
+            "image": "https://static.platzi.com/media/speakers/freddy.jpg",
+            "country": "https://static.platzi.com/media/flags/ES.png"
+
+        },
+        {
+            "id": 2,
+            "name": "Freddy Vega",
+            "profession": "CEO at Platzi",
+            "description": "Me llamo Luis y me encanta crear contenido para redes sociales y compartir mi conocimieto como Frontend          ",
+            "image": "https://static.platzi.com/media/speakers/massimo-i_berardino-conf.png",
+            "country": "https://static.platzi.com/media/flags/CO.png"
+
+        },
+        {
+            "id": 2,
+            "name": "Deivison Davds",
+            "profession": "Backend Developer",
+            "description": "Me llamo Luis y me encanta crear contenido para redes sociales y compartir mi conocimieto como Frontend          ",
+            "image": "https://static.platzi.com/media/speakers/jorge-villalobos.png",
+            "country": "https://static.platzi.com/media/flags/US.png"
+        },
+        {
+            "id": 2,
+            "name": "Student Ethenal",
+            "profession": "Unicorn Developer",
+            "description": "Me llamo Luis y me encanta crear contenido para redes sociales y compartir mi conocimieto como Frontend          ",
+            "image": "https://static.platzi.com/media/speakers/juan-gomila-conf2.png",
+            "country": "https://static.platzi.com/media/flags/MX.png"
+        },
+        {
+            "id": 2,
+            "name": "Juggernat Duran",
+            "profession": "Community Manager",
+            "description": "Me llamo Luis y me encanta crear contenido para redes sociales y compartir mi conocimieto como Frontend          ",
+            "image": "https://static.platzi.com/media/speakers/cesar-fajardo-conf.png",
+            "country": "https://static.platzi.com/media/flags/GT.png"
+        }
+      ]
+    }
+  }
