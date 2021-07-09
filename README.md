@@ -9,4 +9,4 @@ En esta repositorio hice un rediseño y de la Ui/Ux de su sitio web el codigo es
 
 [![Image](https://raw.githubusercontent.com/cutioluis/Frontend-Cafe/master/src/assets/styles/Capture.PNG "Image")](https://raw.githubusercontent.com/cutioluis/Frontend-Cafe/master/src/assets/styles/Capture.PNG "Image")
 
-Nota: No esta terminado
+Nota: No esta terminado ⛏
