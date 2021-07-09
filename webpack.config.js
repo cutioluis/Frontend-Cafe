@@ -8,11 +8,6 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js'
     },
-    devServer: {
-        open: true,
-        hot: true,
-        port: 3000
-    },
     mode: 'development',
     resolve: {
         extensions: ['.js', '.jsx']
@@ -55,7 +50,13 @@ module.exports = {
     devServer: {
         historyApiFallback: true
     },
+<<<<<<< HEAD
     
+=======
+    devServer: {
+        historyApiFallback: true
+    },
+>>>>>>> feature/router-redux
     plugins: [ 
         new HtmlWebPackPlugin({
             template: 'public/index.html',

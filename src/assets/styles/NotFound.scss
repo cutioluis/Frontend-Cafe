@@ -1,0 +1,26 @@
+.coffe-notFound {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.coffe-notFound img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.coffe-notFound h1 {
+    margin: 0;
+    font-size:50px;
+    font-weight:bold;
+    color: #00C39D;
+}
+
+.coffe-notFound p {
+    margin: 0;
+    font-size: 20px;
+    color: #03a182;
+}
