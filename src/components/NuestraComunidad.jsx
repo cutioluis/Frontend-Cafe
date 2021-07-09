@@ -14,9 +14,9 @@ const NuestraComunidad = () => {
         </p>
         <img className="coffe-img-left" src={Left} alt="Recomendacion" />
         <ul>
-          <li>.</li>
-          <li>.</li>
-          <li>.</li>
+          <li></li>
+          <li></li>
+          <li></li>
         </ul>
       </div>
       <div className="coffe-right-comunidad">
