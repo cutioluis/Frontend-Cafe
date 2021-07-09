@@ -18,7 +18,7 @@ const Navigation = () => {
             <li>Online</li>
             <Link to="/blog">
               <li className="list-blog">
-                  ▼ Blogs
+                  Blogs
               </li>
             </Link>
           </ul>

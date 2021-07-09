@@ -1,7 +1,5 @@
 {
     "initalState": {
-      "user": {},
-      "playing": {},
       "myCharacters": [],
       "speakers": [
         {
@@ -40,7 +38,7 @@
         },
         {
             "id": 2,
-            "name": "Student Ethenal",
+            "name": "Student Ethernal",
             "profession": "Unicorn Developer",
             "description": "Me llamo Luis y me encanta crear contenido para redes sociales y compartir mi conocimieto como Frontend          ",
             "image": "https://static.platzi.com/media/speakers/juan-gomila-conf2.png",

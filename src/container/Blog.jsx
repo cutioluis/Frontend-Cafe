@@ -19,10 +19,7 @@ const Blog = () => {
         type="text"
         placeholder="Search your Stories"
       />
-      {/* Components */}
-
       <ArticleBlog />
-      
     </section>
   );
 };
