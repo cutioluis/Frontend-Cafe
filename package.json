@@ -4,6 +4,7 @@
   "description": "Esta plataforma solo es un rediseño de Frontend de la pagina oficial: https://frontend.cafe/",
   "main": "index.js",
   "scripts": {
+    "server": "json-server --watch initalState.json ",
     "build": "webpack --mode production",
     "dev": "webpack --mode development",
     "start": "webpack serve --mode development --env development"
