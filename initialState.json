@@ -4,7 +4,7 @@
       "speakers": [
         {
           "id": 2,
-          "name": "Luis Cutiopala",
+          "name": "Robert Down Jr",
           "profession": "Frontend Developer",
           "description": "Me llamo Luis y me encanta crear contenido para redes sociales y compartir mi conocimieto como Frontend          ",
           "image": "https://static.platzi.com/media/speakers/cvander.png",
@@ -21,7 +21,7 @@
         },
         {
             "id": 2,
-            "name": "Freddy Vega",
+            "name": "Unkdown Dever",
             "profession": "CEO at Platzi",
             "description": "Me llamo Luis y me encanta crear contenido para redes sociales y compartir mi conocimieto como Frontend          ",
             "image": "https://static.platzi.com/media/speakers/massimo-i_berardino-conf.png",
@@ -30,7 +30,7 @@
         },
         {
             "id": 2,
-            "name": "Deivison Davds",
+            "name": "Super Props",
             "profession": "Backend Developer",
             "description": "Me llamo Luis y me encanta crear contenido para redes sociales y compartir mi conocimieto como Frontend          ",
             "image": "https://static.platzi.com/media/speakers/jorge-villalobos.png",
@@ -46,7 +46,7 @@
         },
         {
             "id": 2,
-            "name": "Juggernat Duran",
+            "name": "Lorem Duran",
             "profession": "Community Manager",
             "description": "Me llamo Luis y me encanta crear contenido para redes sociales y compartir mi conocimieto como Frontend          ",
             "image": "https://static.platzi.com/media/speakers/cesar-fajardo-conf.png",
