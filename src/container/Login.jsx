@@ -1,25 +1,46 @@
-import React from "react";
+import React ,{ useState } from "react";
 import '../assets/styles/Login.scss'
 
 const Login = () => {
+  const [form, setValues] = useState({
+    email: ' ',
+  });
+  
+  const handleInput = event => {
+    setValues({
+      ...form,
+      [event.target.name]: event.target.value
+    })
+  }
+
+  const handleSubmit = event => {
+    event.preventDefault()
+    console.log(form);
+  }
+
   return (
     <div className="container">
     <section className="container-login">
       <h2 className="login-title">Iniciar Sesion</h2>
       <div className="login">
-        <form action="">
+        <form action="" onSubmit={handleSubmit}>
           <label className="login-label" htmlFor="correo">
             <p className="login-letter">Correo Electronico</p>
             <br />
+            {/* ------------------------- */}
+            
             <input
               className="login-input"
               placeholder="Tu email"
               type="email"
-              name="correo"
+              name="email"
               id="correo"
               autoComplete="email"
               required
+              onChange={handleInput}
             />
+
+            {/* ------------------------- */}
           </label>
           <label htmlFor="password">
             <p className="login-letter">Contraseña</p>
@@ -31,6 +52,7 @@ const Login = () => {
               id="password" 
               autoComplete="email"
               required
+              onChange={handleInput}
             />
             <br />
             <span className="login-letter-send">Olvidate tu contraseña</span>
