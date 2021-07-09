@@ -9,28 +9,30 @@ import Home from "../container/Home";
 import Login from "../container/Login";
 import Blog from "../container/Blog";
 
-const App = () => (
-  <Router>
-    <Layout>
-      <Switch>
-        <Route path="/comunidad">
-          <Comunidad />
-        </Route>
-        <Route path="/blog" exact>
-          <Blog />
-        </Route>
-        <Route path="/login" exact>
-          <Login />
-        </Route>
-        <Route path="/" exact>
-          <Home />
-        </Route>
-        <Route exact>
-          <NotFound />
-        </Route>
-      </Switch>
-    </Layout>
-  </Router>
-);
+const App = () => {
+  return (
+    <Router>
+      <Layout>
+        <Switch>
+          <Route path="/comunidad">
+            <Comunidad />
+          </Route>
+          <Route path="/blog" exact>
+            <Blog />
+          </Route>
+          <Route path="/login" exact>
+            <Login />
+          </Route>
+          <Route path="/" exact>
+            <Home />
+          </Route>
+          <Route exact>
+            <NotFound />
+          </Route>
+        </Switch>
+      </Layout>
+    </Router>
+  );
+};
 
 export default App;
