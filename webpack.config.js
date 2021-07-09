@@ -50,13 +50,6 @@ module.exports = {
     devServer: {
         historyApiFallback: true
     },
-<<<<<<< HEAD
-    
-=======
-    devServer: {
-        historyApiFallback: true
-    },
->>>>>>> feature/router-redux
     plugins: [ 
         new HtmlWebPackPlugin({
             template: 'public/index.html',
