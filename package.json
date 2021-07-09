@@ -1,6 +1,6 @@
 {
   "name": "frontend-cafe",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Esta plataforma solo es un rediseño de Frontend de la pagina oficial: https://frontend.cafe/",
   "main": "index.js",
   "scripts": {
